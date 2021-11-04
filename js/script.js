@@ -21,6 +21,7 @@ const myColore = prompt ("Inserisci il tuo colore preferito");
 // console.log(myColore);
 
 
-let password = myNome + myCongnome +  "" + myColore + "21";
+// password ottenuta
+let password = myNome + myCongnome + myColore + "21";
 document.getElementById("password").innerHTML = password;
-console.log(password);
+// console.log(password);
